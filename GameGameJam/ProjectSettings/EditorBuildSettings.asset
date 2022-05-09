@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene_Isaac.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Scenes/Scene_Menu/Start.unity
+    guid: 789f5abcc3d70af47addbac05f79dc9c
+  - enabled: 1
+    path: Assets/Scenes/Scene_Tom.unity
+    guid: e71f7ccb4ad09ba4d89c9c014fb225a2
   m_configObjects: {}
