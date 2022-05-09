@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Planete
   - Protections
+  - Planet
+  - Asteroid
   layers:
   - Default
   - TransparentFX
