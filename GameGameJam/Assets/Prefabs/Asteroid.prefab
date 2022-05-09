@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7658257088638950674}
   - component: {fileID: 7658257088638950675}
   - component: {fileID: 7658257088638950684}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Asteroid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,6 +81,10 @@ PrefabInstance:
       value: Rock 1
       objectReference: {fileID: 0}
     - target: {fileID: 135572, guid: 4f9eb78926c668f4cb77ae240ebc4e7b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 135572, guid: 4f9eb78926c668f4cb77ae240ebc4e7b, type: 3}
       propertyPath: m_TagString
       value: Asteroid
       objectReference: {fileID: 0}
@@ -126,6 +130,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 488672, guid: 4f9eb78926c668f4cb77ae240ebc4e7b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977858643, guid: 4f9eb78926c668f4cb77ae240ebc4e7b, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
