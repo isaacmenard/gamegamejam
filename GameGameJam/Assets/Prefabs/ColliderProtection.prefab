@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8259781195908206117}
   - component: {fileID: 1629455557199183763}
   - component: {fileID: 1398784295957388797}
-  - component: {fileID: 3960663517241999612}
+  - component: {fileID: 1191442404890729190}
   m_Layer: 3
   m_Name: ColliderProtection
   m_TagString: Protections
@@ -78,7 +78,7 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 4af823a3c6f985d4994699c6c9bf836e, type: 2}
---- !u!54 &3960663517241999612
+--- !u!54 &1191442404890729190
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
