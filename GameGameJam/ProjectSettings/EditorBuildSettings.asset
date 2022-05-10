@@ -6,12 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Scene_Isaac.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/Scenes/Scene_Menu/MainMenu.unity
+    guid: ffc4959935ad7ca459a9fb93f6c85db2
   - enabled: 1
     path: Assets/Scenes/Scene_Menu/Start.unity
     guid: 789f5abcc3d70af47addbac05f79dc9c
   - enabled: 1
-    path: Assets/Scenes/Scene_Tom.unity
-    guid: e71f7ccb4ad09ba4d89c9c014fb225a2
+    path: Assets/Scenes/Scene_Menu/Lose_Restart.unity
+    guid: 4477d6628f336a34da89eb8ba36882c2
+  - enabled: 1
+    path: Assets/Scenes/Scene_Baptiste.unity
+    guid: 9cdc5d1b51835a748ae4f5cdd8469397
+  - enabled: 1
+    path: Assets/Scenes/Scene_MASTER.unity
+    guid: 3aa5abc8b457e494a9869edd63ff3927
   m_configObjects: {}
