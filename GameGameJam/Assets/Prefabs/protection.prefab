@@ -62,7 +62,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"child","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"speedScale","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"},{"name":"reduceFactor","value":{"$content":0.01,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"child","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"timeCooldownScale","value":{"$content":0.05,"$type":"System.Single"},"$version":"A"},{"name":"reduceFactor","value":{"$content":0.01,"$type":"System.Single"},"$version":"A"},{"name":"timeBeforeMove","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 8034524320673924885}
 --- !u!1 &8034524320673924885
