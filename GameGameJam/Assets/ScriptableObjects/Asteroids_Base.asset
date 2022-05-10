@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4801d5f6b90f4d42a3d62cb36f4e4d1, type: 3}
+  m_Name: Asteroids_Base
+  m_EditorClassIdentifier: 
+  nameAsteroid: BaseAsteroid
+  mesh: {fileID: 4300000, guid: 2a6de7785e904d0429a8e369526f7aa7, type: 3}
+  size: 1
+  damages: 5
+  speed: 5
+  spawnRatePerSeconds: 3
+  timeBeforeStartToSpawn: 0
+  TimeStayToSpawn: Infinity
+  destroyProtection: 0
+  particuleCollideProtection: {fileID: 0}
+  particuleCollidePlanete: {fileID: 0}

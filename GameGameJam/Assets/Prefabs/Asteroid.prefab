@@ -46,10 +46,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Asteroid","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"speed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"Score","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"ParticuleDestroy","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Score","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"ParticuleDestroy","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Parameters","value":null,"$version":"A"},{"name":"Asteroid","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 7658257087796104964}
     - {fileID: 1163488779038701496, guid: 7c855ed4696b18a48a5a05b614d0ace6, type: 3}
+    - {fileID: 7658257087796104964}
 --- !u!114 &7658257088638950684
 MonoBehaviour:
   m_ObjectHideFlags: 0
