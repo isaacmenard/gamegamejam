@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.043674428, g: 0.044857424, b: 0.059592403, a: 1}
+  m_IndirectSpecularColor: {r: 0.0153667275, g: 0.016555628, b: 0.02210689, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -288,8 +288,10 @@ GameObject:
   - component: {fileID: 52919295}
   - component: {fileID: 52919294}
   - component: {fileID: 52919293}
+  - component: {fileID: 52919297}
+  - component: {fileID: 52919296}
   m_Layer: 5
-  m_Name: JaugeSexMask (1)
+  m_Name: JaugeStyleMask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -308,12 +310,12 @@ RectTransform:
   m_Children:
   - {fileID: 1518958638}
   m_Father: {fileID: 791664506}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 212.4, y: 55.9}
-  m_SizeDelta: {x: 197.2009, y: 36.9751}
+  m_AnchoredPosition: {x: 238.70654, y: 56.949013}
+  m_SizeDelta: {x: 173.8493, y: 32.5967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &52919293
 MonoBehaviour:
@@ -366,6 +368,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52919291}
   m_CullTransparentMesh: 1
+--- !u!114 &52919296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52919291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: ca0855e323405c44c84c43c0b553a7b2, type: 2}
+--- !u!114 &52919297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52919291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"NomVariable","value":{"$content":"Style","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &86777801
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,7 +671,7 @@ GameObject:
   - component: {fileID: 162440323}
   - component: {fileID: 162440322}
   m_Layer: 5
-  m_Name: JaugeSex (2)
+  m_Name: JaugeBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -656,12 +689,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 791664506}
-  m_RootOrder: 14
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 213.30003, y: 113.30002}
-  m_SizeDelta: {x: 197.2009, y: 36.9751}
+  m_AnchoredPosition: {x: 239.5, y: 105.1}
+  m_SizeDelta: {x: 173.8493, y: 32.5967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &162440322
 MonoBehaviour:
@@ -1053,8 +1086,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 23.9, y: 30.2}
-  m_SizeDelta: {x: 160.795, y: 208.56}
+  m_AnchoredPosition: {x: 79.965195, y: 34.475723}
+  m_SizeDelta: {x: 130.0075, y: 177.1735}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &324230746
 MonoBehaviour:
@@ -1112,7 +1145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":50,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.4,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &399378395 stripped
 GameObject:
@@ -1132,7 +1165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":100,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.9,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.8,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.9,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &408599878
 GameObject:
@@ -1501,7 +1534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":70,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.6,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.6,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1001 &588902423
 PrefabInstance:
@@ -1717,7 +1750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!4 &664376840 stripped
 Transform:
@@ -1824,13 +1857,13 @@ RectTransform:
   - {fileID: 990904891}
   - {fileID: 127455861}
   - {fileID: 324230745}
+  - {fileID: 162440321}
+  - {fileID: 1560836550}
+  - {fileID: 1507667455}
+  - {fileID: 52919292}
   - {fileID: 1396790164}
   - {fileID: 2045986765}
   - {fileID: 1811331054}
-  - {fileID: 1507667455}
-  - {fileID: 52919292}
-  - {fileID: 162440321}
-  - {fileID: 1560836550}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1857,7 +1890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":90,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.7,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.8,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.6,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &890139467
 GameObject:
@@ -2254,7 +2287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":40,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.6,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &1245213196
 GameObject:
@@ -2529,7 +2562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":20,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1001 &1292674150
 PrefabInstance:
@@ -2635,12 +2668,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 791664506}
-  m_RootOrder: 9
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 211.7, y: -2.9}
-  m_SizeDelta: {x: 197.2009, y: 36.9751}
+  m_AnchoredPosition: {x: 238.06519, y: 9.449011}
+  m_SizeDelta: {x: 173.8493, y: 32.5967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1396790165
 MonoBehaviour:
@@ -2692,7 +2725,7 @@ GameObject:
   - component: {fileID: 1507667457}
   - component: {fileID: 1507667456}
   m_Layer: 5
-  m_Name: JaugeSex (1)
+  m_Name: JaugeStyle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2710,12 +2743,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 791664506}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 212.40001, y: 55.89999}
-  m_SizeDelta: {x: 197.2009, y: 36.9751}
+  m_AnchoredPosition: {x: 238.70656, y: 56.94899}
+  m_SizeDelta: {x: 173.8493, y: 32.5967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1507667456
 MonoBehaviour:
@@ -2842,8 +2875,10 @@ GameObject:
   - component: {fileID: 1560836553}
   - component: {fileID: 1560836552}
   - component: {fileID: 1560836551}
+  - component: {fileID: 1560836555}
+  - component: {fileID: 1560836554}
   m_Layer: 5
-  m_Name: JaugeSexMask (2)
+  m_Name: JaugeBodyMask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2862,12 +2897,12 @@ RectTransform:
   m_Children:
   - {fileID: 86777802}
   m_Father: {fileID: 791664506}
-  m_RootOrder: 15
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 213.3, y: 113.3}
-  m_SizeDelta: {x: 197.2009, y: 36.9751}
+  m_AnchoredPosition: {x: 239.49997, y: 105.09999}
+  m_SizeDelta: {x: 173.8493, y: 32.5967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1560836551
 MonoBehaviour:
@@ -2920,6 +2955,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560836549}
   m_CullTransparentMesh: 1
+--- !u!114 &1560836554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560836549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: ca0855e323405c44c84c43c0b553a7b2, type: 2}
+--- !u!114 &1560836555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560836549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"NomVariable","value":{"$content":"Bodywork","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &1687258581
 GameObject:
   m_ObjectHideFlags: 0
@@ -3142,11 +3208,11 @@ RectTransform:
   m_LocalScale: {x: 0.15764, y: 0.15764, z: 0.15764}
   m_Children: []
   m_Father: {fileID: 791664506}
-  m_RootOrder: 11
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 253.68, y: -61.57}
+  m_AnchoredPosition: {x: 294.96518, y: -42.45099}
   m_SizeDelta: {x: 1856.4, y: 509.796}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1811331055
@@ -3171,7 +3237,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 2365e689de5f4a84599dda7ae6d5fb12, type: 3}
-    m_FontSize: 280
+    m_FontSize: 240
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -3240,7 +3306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":30,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &1869493725
 GameObject:
@@ -3320,7 +3386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":80,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.6,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.8,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1001 &1920179300
 PrefabInstance:
@@ -3408,6 +3474,8 @@ GameObject:
   - component: {fileID: 2045986768}
   - component: {fileID: 2045986767}
   - component: {fileID: 2045986766}
+  - component: {fileID: 2045986770}
+  - component: {fileID: 2045986769}
   m_Layer: 5
   m_Name: JaugeSexMask
   m_TagString: Untagged
@@ -3428,12 +3496,12 @@ RectTransform:
   m_Children:
   - {fileID: 890139468}
   m_Father: {fileID: 791664506}
-  m_RootOrder: 10
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 211.69997, y: -2.899992}
-  m_SizeDelta: {x: 197.2009, y: 36.9751}
+  m_AnchoredPosition: {x: 238.06516, y: 9.449011}
+  m_SizeDelta: {x: 173.8493, y: 32.5967}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2045986766
 MonoBehaviour:
@@ -3486,6 +3554,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045986764}
   m_CullTransparentMesh: 1
+--- !u!114 &2045986769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045986764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: ca0855e323405c44c84c43c0b553a7b2, type: 2}
+--- !u!114 &2045986770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045986764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"NomVariable","value":{"$content":"Sexappeal","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &2056832536
 GameObject:
   m_ObjectHideFlags: 0
@@ -3579,7 +3678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":60,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.7,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.4,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &2138677391
 GameObject:
