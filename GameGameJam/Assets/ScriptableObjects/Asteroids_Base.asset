@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: Asteroids_Base
   m_EditorClassIdentifier: 
   nameAsteroid: BaseAsteroid
-  mesh: {fileID: 4300000, guid: 2a6de7785e904d0429a8e369526f7aa7, type: 3}
-  size: 1
-  damages: 5
-  speed: 5
-  spawnRatePerSeconds: 3
-  timeBeforeStartToSpawn: 0
+  mesh: {fileID: 4300000, guid: 2703e2062106f8348aa323888a540a2f, type: 3}
+  material: {fileID: -6478536213147159724, guid: 08e578935e50ed04d881e1e8089e3539, type: 3}
+  size: 0.5
+  damages: 0
+  speed: 3
+  spawnRatePerSeconds: 2
+  timeBeforeStartToSpawn: 0.1
   TimeStayToSpawn: Infinity
   destroyProtection: 0
-  particuleCollideProtection: {fileID: 0}
-  particuleCollidePlanete: {fileID: 0}
+  particuleCollideProtection: {fileID: 1163488779038701496, guid: 7c855ed4696b18a48a5a05b614d0ace6, type: 3}
+  canSpawn: 1

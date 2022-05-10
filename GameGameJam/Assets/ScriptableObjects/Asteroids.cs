@@ -21,4 +21,7 @@ public class Asteroids : ScriptableObject
 
     [Space, Header("Dead")]
     public GameObject particuleCollideProtection;
+
+    [Space, Header("SO NOT TOUCH")]
+    public bool canSpawn = false;
 }
