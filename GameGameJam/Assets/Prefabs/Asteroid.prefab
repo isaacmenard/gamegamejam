@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Asteroid","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Asteroid","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"speed","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 7658257087796104964}
 --- !u!114 &7658257088638950684
@@ -132,6 +132,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2349426, guid: 4f9eb78926c668f4cb77ae240ebc4e7b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -6478536213147159724, guid: 6cfdd35202cd50f4c9c345e44f7de972, type: 3}
     - target: {fileID: 1977858643, guid: 4f9eb78926c668f4cb77ae240ebc4e7b, type: 3}
       propertyPath: m_IsTrigger
       value: 0

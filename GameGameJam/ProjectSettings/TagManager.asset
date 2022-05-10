@@ -15,8 +15,8 @@ TagManager:
   - DontCollideWithDefault
   - Water
   - UI
-  - 
-  - 
+  - OnlyPlayer
+  - Player
   - 
   - 
   - 

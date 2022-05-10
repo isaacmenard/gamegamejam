@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1871819941793599159}
   - component: {fileID: 7046372341296994532}
-  - component: {fileID: 8053604862954201482}
+  - component: {fileID: 4617604712641977972}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -47,7 +47,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!114 &8053604862954201482
+--- !u!114 &4617604712641977972
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56,10 +56,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6894053337157802259}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: b9fcaa4388d77d2488ba67e2f62b8789, type: 2}
+    - {fileID: 11400000, guid: ad33be27507e2a74599818461c85b296, type: 2}
