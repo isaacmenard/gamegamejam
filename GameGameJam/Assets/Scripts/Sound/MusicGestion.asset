@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: MusicGestion
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-155.0,"y":144.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-332.0,"y":-68.0},"guid":"9f71ecdf-d960-43c5-837a-73bb9a7b3c81","$version":"A","$type":"Bolt.Update","$id":"9"},{"chainable":false,"member":{"name":"volume","parameterTypes":null,"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"input":{"$content":0.0,"$type":"System.Single"}},"position":{"x":-95.0,"y":-68.0},"guid":"301f87bc-c120-43aa-b63c-0ac4ed6a5923","$version":"A","$type":"Bolt.SetMember","$id":"11"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"MusicVolume","$type":"System.String"}},"position":{"x":-323.0,"y":23.0},"guid":"2d9544b1-285e-4a44-a5fc-d0a0ec3cce37","$version":"A","$type":"Bolt.GetVariable","$id":"14"},{"coroutine":false,"defaultValues":{},"position":{"x":-315.0,"y":198.0},"guid":"007434a5-d9ee-4a32-9c00-ccc139659304","$version":"A","$type":"Bolt.Start","$id":"16"},{"chainable":false,"member":{"name":"time","parameterTypes":null,"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null,"input":{"$content":0.0,"$type":"System.Single"}},"position":{"x":-158.0,"y":198.0},"guid":"080d624e-a5d0-4114-a26e-ac1c5d907896","$version":"A","$type":"Bolt.SetMember","$id":"18"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"MusicTiming","$type":"System.String"}},"position":{"x":-380.0,"y":282.0},"guid":"73be5ba6-43c7-41ee-a29a-52f37a8b69ba","$version":"A","$type":"Bolt.GetVariable","$id":"21"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"285a03c5-3d8f-4a3f-94e7-59dddfa49ef3","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"trigger","destinationUnit":{"$ref":"18"},"destinationKey":"assign","guid":"75b56324-69e1-4607-a020-8e9f9043136c","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"369878f1-1c39-4447-9a5a-33621f77f109","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"input","guid":"8fd36962-19d4-4db6-b282-29af72c24327","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

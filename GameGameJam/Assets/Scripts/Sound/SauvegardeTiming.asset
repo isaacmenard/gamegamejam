@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: SauvegardeTiming
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-133.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-307.0,"y":10.0},"guid":"6173078d-b6a2-4f19-a2aa-9a9cd3723974","$version":"A","$type":"Bolt.OnButtonClick","$id":"9"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Music","$type":"System.String"},"object":null},"position":{"x":-419.0,"y":106.0},"guid":"90fcc1e6-75c5-4987-8e82-7894815f3ef3","$version":"A","$type":"Bolt.GetVariable","$id":"11"},{"member":{"name":"time","parameterTypes":null,"targetType":"UnityEngine.AudioSource","targetTypeName":"UnityEngine.AudioSource","$version":"A"},"defaultValues":{"target":null},"position":{"x":-220.0,"y":111.0},"guid":"0c8c771d-53b2-440f-b600-ca234108ce51","$version":"A","$type":"Bolt.GetMember","$id":"13"},{"kind":"Application","defaultValues":{"name":{"$content":"MusicTiming","$type":"System.String"}},"position":{"x":-54.0,"y":6.0},"guid":"1d0e172f-cdfd-4e9b-8764-ead6bb559492","$version":"A","$type":"Bolt.SetVariable","$id":"16"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"36b9e8a9-b9d3-4ef5-9a73-bca0a6cf3e89","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"67f68e0a-f423-4f9c-a7a4-dafcdb71cb28","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"c4532f99-1cb6-46cf-a359-fa4fa2ad89d0","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
