@@ -152,6 +152,7 @@ GameObject:
   - component: {fileID: 33707596}
   - component: {fileID: 33707595}
   - component: {fileID: 33707597}
+  - component: {fileID: 33707598}
   m_Layer: 5
   m_Name: Quit
   m_TagString: Untagged
@@ -291,6 +292,25 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &33707598
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33707591}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b5c7f835e31b37048b9bc31469d5966c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &82646693
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,6 +554,7 @@ GameObject:
   - component: {fileID: 139612948}
   - component: {fileID: 139612950}
   - component: {fileID: 139612949}
+  - component: {fileID: 139612951}
   m_Layer: 5
   m_Name: Credits
   m_TagString: Untagged
@@ -674,6 +695,25 @@ MonoBehaviour:
     _json: '{"declarations":{"collection":{"$content":[{"name":"CreditsMenu","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 527716976}
+--- !u!95 &139612951
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139612944}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b5c7f835e31b37048b9bc31469d5966c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &298615394
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,6 +804,7 @@ GameObject:
   - component: {fileID: 449648139}
   - component: {fileID: 449648141}
   - component: {fileID: 449648140}
+  - component: {fileID: 449648142}
   m_Layer: 5
   m_Name: Options
   m_TagString: Untagged
@@ -904,6 +945,25 @@ MonoBehaviour:
     _json: '{"declarations":{"collection":{"$content":[{"name":"CreditsMenu","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1261572749}
+--- !u!95 &449648142
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449648135}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b5c7f835e31b37048b9bc31469d5966c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &527716976
 GameObject:
   m_ObjectHideFlags: 0
@@ -2238,6 +2298,7 @@ GameObject:
   - component: {fileID: 1654680947}
   - component: {fileID: 1654680946}
   - component: {fileID: 1654680949}
+  - component: {fileID: 1654680950}
   m_Layer: 5
   m_Name: Start
   m_TagString: Untagged
@@ -2393,6 +2454,25 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &1654680950
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654680942}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b5c7f835e31b37048b9bc31469d5966c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1679050961
 GameObject:
   m_ObjectHideFlags: 0
@@ -2919,6 +2999,7 @@ GameObject:
   - component: {fileID: 1953318385}
   - component: {fileID: 1953318387}
   - component: {fileID: 1953318388}
+  - component: {fileID: 1953318389}
   m_Layer: 5
   m_Name: Store
   m_TagString: Untagged
@@ -3075,6 +3156,25 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 814d901740061a644b387902c05523d6, type: 2}
+--- !u!95 &1953318389
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953318381}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b5c7f835e31b37048b9bc31469d5966c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1964591377
 GameObject:
   m_ObjectHideFlags: 0
