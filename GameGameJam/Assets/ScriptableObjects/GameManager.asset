@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea5388da509abf84b98b71c383854618, type: 3}
   m_Name: GameManager
   m_EditorClassIdentifier: 
-  scoreMultiplicateur: 1000
-  coinDivideurByScore: 912
+  scoreMultiplicateur: 2583
+  coinDivideurByScore: 234
   capsulePvPuissance: 10
   capsulePvCoolDownMin: 10
   capsulePvCoolDownMax: 30
