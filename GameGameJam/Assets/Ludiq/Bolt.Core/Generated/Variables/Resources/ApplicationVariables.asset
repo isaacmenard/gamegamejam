@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ApplicationVariables
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"MusicVolume","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"},{"name":"SoundVolume","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"MusicTiming","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"IndexLastPlanet","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"MusicVolume","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"},{"name":"SoundVolume","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"MusicTiming","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"IndexLastPlanet","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"gameManager","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2100000, guid: 0ffaa0b7117ba8c47a9d05ae701d4b4d, type: 2}
+    - {fileID: 11400000, guid: f0ee94c0a5935d54e8d21768d0b3df54, type: 2}
