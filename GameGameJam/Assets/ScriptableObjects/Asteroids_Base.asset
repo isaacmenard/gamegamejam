@@ -15,10 +15,10 @@ MonoBehaviour:
   nameAsteroid: BaseAsteroid
   mesh: {fileID: 4300000, guid: 2703e2062106f8348aa323888a540a2f, type: 3}
   material: {fileID: -6478536213147159724, guid: 08e578935e50ed04d881e1e8089e3539, type: 3}
-  size: 0.5
-  damages: 0
+  size: 1
+  damages: 10
   speed: 3
-  spawnRatePerSeconds: 2
+  spawnRatePerSeconds: 1
   timeBeforeStartToSpawn: 0.1
   TimeStayToSpawn: Infinity
   destroyProtection: 0
