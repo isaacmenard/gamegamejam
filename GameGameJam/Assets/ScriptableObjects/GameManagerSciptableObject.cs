@@ -11,6 +11,7 @@ public class GameManagerSciptableObject : ScriptableObject
     public float capsulePvPuissance;//fait
     public float capsulePvCoolDownMin;//fait
     public float capsulePvCoolDownMax;//fait
+    public float howMuchPartyTutoShow;//fait
 
     [Space, Header("Planet")]
     public float MinPVPlanetToUseProtection;//fait

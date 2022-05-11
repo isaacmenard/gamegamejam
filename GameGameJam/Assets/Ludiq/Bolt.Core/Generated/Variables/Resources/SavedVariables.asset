@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SavedVariables
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Money","value":{"$content":1000,"$type":"System.Int32"},"$version":"A"},{"name":"ListBoolunlock","value":{"$content":[true,true,true,true,true,true,true,true,true,true],"$type":"System.Collections.Generic.List`1[[System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"IndexShipEquip","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"BestScore","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Money","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"ListBoolunlock","value":{"$content":[true,false,false,false,false,false,false,false,false,false],"$type":"System.Collections.Generic.List`1[[System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"$version":"A"},{"name":"IndexShipEquip","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"BestScore","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"didTheTuto","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []

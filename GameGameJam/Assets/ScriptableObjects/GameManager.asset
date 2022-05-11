@@ -17,6 +17,7 @@ MonoBehaviour:
   capsulePvPuissance: 10
   capsulePvCoolDownMin: 10
   capsulePvCoolDownMax: 30
+  howMuchPartyTutoShow: 2
   MinPVPlanetToUseProtection: 10
   scalePlanetOffset: 5
   rotationPlanet: {x: 0.02, y: 0.02, z: 0.02}
