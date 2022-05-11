@@ -937,7 +937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.4,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":1111,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.4,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &399378396
 MonoBehaviour:
@@ -952,7 +952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.9,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.8,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.9,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10001,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.9,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.8,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.9,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &408599878
 GameObject:
@@ -1316,7 +1316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.6,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.6,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":4534,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.6,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.6,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &653260035
 GameObject:
@@ -1379,7 +1379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &791664502
 GameObject:
@@ -1509,7 +1509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.7,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.8,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.6,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":9999,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.7,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.8,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.6,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &890139467
 GameObject:
@@ -1827,7 +1827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.6,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":769,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.6,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &1245213196
 GameObject:
@@ -2023,7 +2023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":99,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &1396790163
 GameObject:
@@ -2676,7 +2676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":387,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.3,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &1869493725
 GameObject:
@@ -2751,7 +2751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.6,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.8,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":6620,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.6,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.5,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.8,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &2045986764
 GameObject:
@@ -2964,7 +2964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":10,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.7,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.4,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Price","value":{"$content":2300,"$type":"System.Int32"},"$version":"A"},{"name":"Bodywork","value":{"$content":0.7,"$type":"System.Single"},"$version":"A"},{"name":"Style","value":{"$content":0.4,"$type":"System.Single"},"$version":"A"},{"name":"Sexappeal","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &2138677391
 GameObject:
@@ -3113,7 +3113,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 4815416180657528326, guid: 6cfdd35202cd50f4c9c345e44f7de972, type: 3}
+  m_Mesh: {fileID: -7513874067671483054, guid: 885b97de43da7484185b1f50b9c82a4c, type: 3}
 --- !u!4 &562858762446116150
 Transform:
   m_ObjectHideFlags: 0
@@ -3122,8 +3122,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 901983966173679500}
   m_LocalRotation: {x: -0.20744614, y: 0.9562662, z: -0.1528868, w: -0.13837159}
-  m_LocalPosition: {x: -12.12, y: 0.19222848, z: -4.17}
-  m_LocalScale: {x: 0.07259317, y: 0.0725932, z: 0.07259316}
+  m_LocalPosition: {x: -12.147, y: 0.03, z: -4.1376}
+  m_LocalScale: {x: 0.051795226, y: 0.051795248, z: 0.051795222}
   m_Children: []
   m_Father: {fileID: 408599879}
   m_RootOrder: 8
@@ -3382,7 +3382,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 901983966173679500}
-  m_Mesh: {fileID: 4815416180657528326, guid: 6cfdd35202cd50f4c9c345e44f7de972, type: 3}
+  m_Mesh: {fileID: -7513874067671483054, guid: 885b97de43da7484185b1f50b9c82a4c, type: 3}
 --- !u!23 &3612496763163051869
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3708,7 +3708,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6577257767486780530}
   m_LocalRotation: {x: 0.18318777, y: -0.011490505, z: -0.1812481, w: 0.96615696}
-  m_LocalPosition: {x: 10.91, y: 0.10297954, z: 4.3}
+  m_LocalPosition: {x: 10.9, y: 0.10297954, z: 4.5}
   m_LocalScale: {x: 0.09611428, y: 0.09611427, z: 0.09611424}
   m_Children: []
   m_Father: {fileID: 408599879}
