@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4801d5f6b90f4d42a3d62cb36f4e4d1, type: 3}
-  m_Name: Asteroids_Base
+  m_Name: Asteroids_Base2
   m_EditorClassIdentifier: 
   nameAsteroid: BaseAsteroid
-  mesh: {fileID: 4300000, guid: ff934fa4e02d1784d9a324b0f2923a65, type: 3}
+  mesh: {fileID: 4300000, guid: 2703e2062106f8348aa323888a540a2f, type: 3}
   material: {fileID: -6478536213147159724, guid: 08e578935e50ed04d881e1e8089e3539, type: 3}
-  size: 1.5
+  size: 1
   damages: 20
-  speed: 4
-  spawnRatePerSeconds: 2
-  timeBeforeStartToSpawn: 60
-  TimeStayToSpawn: 60
+  speed: 2
+  spawnRatePerSeconds: 3
+  timeBeforeStartToSpawn: 1
+  TimeStayToSpawn: 50
   destroyProtection: 0
-  particuleCollideProtection: {fileID: 1855340746554395461, guid: 49011e57640af4346b984abcfb1cf581, type: 3}
+  particuleCollideProtection: {fileID: 1855340746554395461, guid: 25369c7f8306c764e80d514d29ccdfbd, type: 3}
   canSpawn: 0

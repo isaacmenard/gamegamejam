@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 1855340745660228351}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalScale: {x: 0.077802405, y: 0.077802405, z: 0.077802405}
   m_Children: []
   m_Father: {fileID: 1855340746554395458}
   m_RootOrder: 1
@@ -4910,7 +4910,7 @@ Transform:
   m_GameObject: {fileID: 1855340746491473400}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalScale: {x: 0.077802405, y: 0.077802405, z: 0.077802405}
   m_Children: []
   m_Father: {fileID: 1855340746554395458}
   m_RootOrder: 0
@@ -9769,7 +9769,7 @@ GameObject:
   - component: {fileID: 1855340746554395459}
   - component: {fileID: 1855340746554395460}
   m_Layer: 0
-  m_Name: BasicSpark 2
+  m_Name: BasicSpark 4
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -9875,7 +9875,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.4
+      scalar: 0.2
       minScalar: 0.1
       maxCurve:
         serializedVersion: 2
@@ -9928,8 +9928,8 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 150
-      minScalar: 50
+      scalar: 50
+      minScalar: 30
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -14661,7 +14661,7 @@ Transform:
   m_GameObject: {fileID: 1855340747401467471}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalScale: {x: 0.077802405, y: 0.077802405, z: 0.077802405}
   m_Children: []
   m_Father: {fileID: 1855340746554395458}
   m_RootOrder: 2

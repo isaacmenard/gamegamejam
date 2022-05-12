@@ -477,12 +477,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"AsteroidParameters","value":{"$content":[0,1],"$type":"System.Collections.Generic.List`1[[Asteroids,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"player","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"planete","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PV","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"baseScale","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"gameManager","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Score","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Transition
-      Entry","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"AsteroidParameters","value":{"$content":[0,1,2,3,4],"$type":"System.Collections.Generic.List`1[[Asteroids,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"player","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"planete","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"PV","value":{"$content":100.0,"$type":"System.Single"},"$version":"A"},{"name":"baseScale","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"gameManager","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Score","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Transition
+      Entry","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 11400000, guid: d918b16e17d80da4aa1add9062a90209, type: 2}
     - {fileID: 11400000, guid: d50bc34d8cb6dbf45a297ff3b6499bf4, type: 2}
+    - {fileID: 11400000, guid: c86140998e1d11d4f95a7b914fafe32e, type: 2}
+    - {fileID: 11400000, guid: b93e660fefe56324a934ce2d9d00bab6, type: 2}
+    - {fileID: 11400000, guid: 50238109f845fc8489ee039c07ace2bb, type: 2}
     - {fileID: 1552584190}
     - {fileID: 312306204}
     - {fileID: 1864113402}
