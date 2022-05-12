@@ -27,4 +27,4 @@ MonoBehaviour:
   cooldownDash: 1
   cooldownDashEnd: 0.1
   cooldownMaxProtection: 2
-  protectionQuantity: 0.17
+  protectionQuantity: 0.3
