@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4801d5f6b90f4d42a3d62cb36f4e4d1, type: 3}
-  m_Name: Asteroids_AntiProtection
+  m_Name: Asteroids_AntiProtection 1
   m_EditorClassIdentifier: 
   nameAsteroid: Asteroids_AntiProtection
   mesh: {fileID: 4300000, guid: 8431e38ef560fb940ac1cb0a483b57cd, type: 3}
   material: {fileID: -6478536213147159724, guid: 853369434adc60e47ab27ecbeac2bd10, type: 3}
-  size: 2
+  size: 2.2
   damages: 30
   speed: 1
-  spawnRatePerSeconds: 10
-  timeBeforeStartToSpawn: 30
+  spawnRatePerSeconds: 8
+  timeBeforeStartToSpawn: 60
   TimeStayToSpawn: 20
   destroyProtection: 1
   particuleCollideProtection: {fileID: 4212237911574779972, guid: f34d53a9f8cd409428b8d1e3addf4807, type: 3}
