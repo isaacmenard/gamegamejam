@@ -17,7 +17,7 @@ MonoBehaviour:
   material: {fileID: -6478536213147159724, guid: 853369434adc60e47ab27ecbeac2bd10, type: 3}
   size: 2.2
   damages: 40
-  speed: 1
+  speed: 1.1
   spawnRatePerSeconds: 4
   timeBeforeStartToSpawn: 130
   TimeStayToSpawn: Infinity

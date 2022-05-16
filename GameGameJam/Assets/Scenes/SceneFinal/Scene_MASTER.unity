@@ -202,6 +202,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68149762}
   m_CullTransparentMesh: 1
+--- !u!1 &75922762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 75922765}
+  - component: {fileID: 75922764}
+  - component: {fileID: 75922763}
+  m_Layer: 0
+  m_Name: StatManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &75922763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75922762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 0ca3c3c414800574bb734df523f1a6cb, type: 2}
+--- !u!114 &75922764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75922762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Scriptable","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ShipList","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: f0ee94c0a5935d54e8d21768d0b3df54, type: 2}
+    - {fileID: 1552584191}
+--- !u!4 &75922765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75922762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.77094793, y: 15.9216385, z: -1.7416859}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &111940841
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,7 +434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &140150465
 MeshCollider:
@@ -723,7 +788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &206189315
 MeshCollider:
@@ -1068,8 +1133,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229167947}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -18.3597, y: 0, z: -3.8}
-  m_LocalScale: {x: 4.9060893, y: 4.9060893, z: 49.69287}
+  m_LocalPosition: {x: -18.6617, y: 0, z: -3.5}
+  m_LocalScale: {x: 4.9060893, y: 4.9060893, z: 87.06653}
   m_Children: []
   m_Father: {fileID: 1651712982}
   m_RootOrder: 2
@@ -1138,7 +1203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &232359828
 MeshCollider:
@@ -1267,7 +1332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &273180618
 MeshCollider:
@@ -1433,7 +1498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &288787369
 MeshCollider:
@@ -1641,7 +1706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &310644181
 MeshCollider:
@@ -1872,7 +1937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &313951760
 MeshCollider:
@@ -2001,7 +2066,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &321843485
 MeshCollider:
@@ -2130,7 +2195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &327712553
 MeshCollider:
@@ -2259,7 +2324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &333698024
 MeshCollider:
@@ -2388,7 +2453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &334447898
 MeshCollider:
@@ -2517,7 +2582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &334468519
 MeshCollider:
@@ -2646,7 +2711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &339404572
 MeshCollider:
@@ -2868,7 +2933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &340764405
 MeshCollider:
@@ -2997,7 +3062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &341209862
 MeshCollider:
@@ -3126,7 +3191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &344805667
 MeshCollider:
@@ -3255,7 +3320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &355881996
 MeshCollider:
@@ -3506,7 +3571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &406871604
 MeshCollider:
@@ -3635,7 +3700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &411370596
 MeshCollider:
@@ -3764,7 +3829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &417951588
 MeshCollider:
@@ -3965,7 +4030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &431442299
 MeshCollider:
@@ -4094,7 +4159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &455332749
 MeshCollider:
@@ -4583,7 +4648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &528057277
 MeshCollider:
@@ -4732,7 +4797,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &555750474
 MeshCollider:
@@ -4861,7 +4926,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &559188901
 MeshCollider:
@@ -5015,8 +5080,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563550779}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -45.7, y: -0, z: 15.3863}
-  m_LocalScale: {x: 4.9060893, y: 4.9060893, z: 41.111122}
+  m_LocalPosition: {x: -49.6, y: -0, z: 19.8094}
+  m_LocalScale: {x: 4.9060893, y: 4.9060893, z: 71.36681}
   m_Children: []
   m_Father: {fileID: 1651712982}
   m_RootOrder: 0
@@ -5085,7 +5150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &584218080
 MeshCollider:
@@ -5358,7 +5423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &652686079
 MeshCollider:
@@ -5487,7 +5552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &669876053
 MeshCollider:
@@ -5616,7 +5681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &671923756
 MeshCollider:
@@ -5745,7 +5810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &677266752
 MeshCollider:
@@ -5899,8 +5964,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 680062067}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.5, y: 0, z: 15.7636}
-  m_LocalScale: {x: 4.9060893, y: 4.9060893, z: 41.065056}
+  m_LocalPosition: {x: 7.6, y: -0, z: 19.9562}
+  m_LocalScale: {x: 4.9060893, y: 4.9060893, z: 68.90628}
   m_Children: []
   m_Father: {fileID: 1651712982}
   m_RootOrder: 1
@@ -5994,7 +6059,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10.58
+  orthographic size: 14
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -6056,7 +6121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"CamShake","$type":"System.String"}},"position":{"x":-104.0,"y":-2.0},"guid":"9886db47-0543-4027-bc1a-fda54d4746b3","$version":"A","$type":"Bolt.CustomEvent","$id":"10"},{"chainable":false,"member":{"name":"SetTrigger","parameterTypes":["System.String"],"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"%name":{"$content":"HitPlanet","$type":"System.String"}},"position":{"x":142.0,"y":-7.0},"guid":"84e9f602-1653-4e6a-a85d-14b137972647","$version":"A","$type":"Bolt.InvokeMember","$id":"12"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"a5655237-ca2f-4eab-8f0d-7f73000172e4","$type":"Bolt.ControlConnection"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"CamShake","$type":"System.String"}},"position":{"x":-119.0,"y":-13.0},"guid":"9886db47-0543-4027-bc1a-fda54d4746b3","$version":"A","$type":"Bolt.CustomEvent","$id":"10"},{"chainable":false,"member":{"name":"SetTrigger","parameterTypes":["System.String"],"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"%name":{"$content":"HitPlanet","$type":"System.String"}},"position":{"x":142.0,"y":-7.0},"guid":"84e9f602-1653-4e6a-a85d-14b137972647","$version":"A","$type":"Bolt.InvokeMember","$id":"12"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"a5655237-ca2f-4eab-8f0d-7f73000172e4","$type":"Bolt.ControlConnection"}],"$version":"A"}}}'
     _objectReferences: []
 --- !u!114 &704372138
 MonoBehaviour:
@@ -6212,7 +6277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &713514172
 MeshCollider:
@@ -6433,7 +6498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &812363042
 MeshCollider:
@@ -6675,7 +6740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &874422210
 MeshCollider:
@@ -6957,7 +7022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &880950072
 MeshCollider:
@@ -7086,7 +7151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &882755154
 MeshCollider:
@@ -7215,7 +7280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &895295257
 MeshCollider:
@@ -7344,7 +7409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &901698884
 MeshCollider:
@@ -7786,7 +7851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &977348293
 MeshCollider:
@@ -7987,7 +8052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &983591867
 MeshCollider:
@@ -8116,7 +8181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &994489374
 MeshCollider:
@@ -8416,7 +8481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1065304730
 MeshCollider:
@@ -8545,7 +8610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1084646890
 MeshCollider:
@@ -8674,7 +8739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1110091584
 MeshCollider:
@@ -8873,7 +8938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1217945728
 MeshCollider:
@@ -9084,7 +9149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1246305317
 MeshCollider:
@@ -9213,7 +9278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1263056840
 MeshCollider:
@@ -9342,7 +9407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1272135851
 MeshCollider:
@@ -9471,7 +9536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1284365336
 MeshCollider:
@@ -9600,7 +9665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1292751619
 MeshCollider:
@@ -9729,7 +9794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1303348339
 MeshCollider:
@@ -9858,7 +9923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1324284609
 MeshCollider:
@@ -9987,7 +10052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1340368051
 MeshCollider:
@@ -10116,7 +10181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1341784668
 MeshCollider:
@@ -10245,7 +10310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1353386974
 MeshCollider:
@@ -10374,7 +10439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1377396029
 MeshCollider:
@@ -10575,7 +10640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1402858266
 MeshCollider:
@@ -10704,7 +10769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1411437138
 MeshCollider:
@@ -10986,7 +11051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1414958369
 MeshCollider:
@@ -11115,7 +11180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1503899169
 MeshCollider:
@@ -11280,27 +11345,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -4543564600408584075, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"speed","value":{"$content":10.0,"$type":"System.Single"},"$version":"A"},{"name":"freqProtect","value":{"$content":0.05,"$type":"System.Single"},"$version":"A"},{"name":"isDashing","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"DashCooldown","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"},{"name":"Boost
-        Particles","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"reduceSpeed","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: -4543564600408584075, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -4543564600408584075, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-      propertyPath: _data._objectReferences.Array.data[0]
-      value: 
-      objectReference: {fileID: 1745914002}
-    - target: {fileID: 521959211456841350, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2248857419398924268, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 3086629686837679057, guid: d55fda918537b3645beec761316d7ee8, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -11345,65 +11389,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5288240677024312780, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: -7513874067671483054, guid: 885b97de43da7484185b1f50b9c82a4c, type: 3}
     - target: {fileID: 8270508683051897680, guid: d55fda918537b3645beec761316d7ee8, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 8270508683051897680, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8444489817377894797, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-      propertyPath: m_Convex
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8468897987575249107, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136749718666289769, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.42430478
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136749718666289769, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.42430478
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136749718666289769, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.42430478
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136749718666289769, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5.62
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136749718666289769, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.5278
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136749718666289769, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -12.78
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3731566660918712834, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-    - {fileID: 9153532224791105615, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-    - {fileID: 8283349535576095830, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-    - {fileID: 3859607093236972675, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-    - {fileID: 6928485661331455323, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-    - {fileID: 8444489817377894797, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-    - {fileID: 8536515028624356143, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-    - {fileID: 5484859401131906795, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-    - {fileID: 325834939003949726, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-    - {fileID: 8089463819503688161, guid: d55fda918537b3645beec761316d7ee8, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d55fda918537b3645beec761316d7ee8, type: 3}
 --- !u!1 &1552584190 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8270508683051897680, guid: d55fda918537b3645beec761316d7ee8, type: 3}
+  m_PrefabInstance: {fileID: 1552584189}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1552584191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2078791222697694025, guid: d55fda918537b3645beec761316d7ee8, type: 3}
   m_PrefabInstance: {fileID: 1552584189}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1554289602
@@ -11603,7 +11602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1593800176
 MeshCollider:
@@ -11832,7 +11831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1674968565
 MeshCollider:
@@ -12018,7 +12017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1707703526
 MeshCollider:
@@ -12147,7 +12146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1709252106
 MeshCollider:
@@ -12276,7 +12275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1721412157
 MeshCollider:
@@ -12370,7 +12369,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722802899}
   m_LocalRotation: {x: -0, y: 0.1438105, z: -0, w: 0.98960525}
-  m_LocalPosition: {x: 19.5, y: 0, z: -8.8}
+  m_LocalPosition: {x: 26.2, y: 0, z: -15.8}
   m_LocalScale: {x: 0.013561002, y: 0.013561, z: 0.013561002}
   m_Children: []
   m_Father: {fileID: 968243091}
@@ -12405,7 +12404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1722802903
 MeshCollider:
@@ -12490,11 +12489,6 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!1 &1745914002 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5608368658534139925, guid: d55fda918537b3645beec761316d7ee8, type: 3}
-  m_PrefabInstance: {fileID: 1552584189}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1776236506 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4121669563553110375, guid: 5d6d10238c88a734d9e62d190f037e8c, type: 3}
@@ -12579,7 +12573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1777924204
 MeshCollider:
@@ -13010,7 +13004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1817336718
 MeshCollider:
@@ -13139,7 +13133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1825649413
 MeshCollider:
@@ -13342,7 +13336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1865116216
 MeshCollider:
@@ -13471,7 +13465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1866756704
 MeshCollider:
@@ -13753,7 +13747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1898882748
 MeshCollider:
@@ -13882,7 +13876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1899167166
 MeshCollider:
@@ -14352,7 +14346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1923272275
 MeshCollider:
@@ -14481,7 +14475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1927247751
 MeshCollider:
@@ -14610,7 +14604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &1958508515
 MeshCollider:
@@ -14984,7 +14978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &2099240498
 MeshCollider:
@@ -15113,7 +15107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &2118393809
 MeshCollider:
@@ -15242,7 +15236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-11.0,"y":4.8,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":26.2,"y":-15.8,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"min","value":{"x":-17.2,"y":8.3,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"max","value":{"x":32.3,"y":-19.5,"$type":"UnityEngine.Vector2"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!64 &2128679257
 MeshCollider:
@@ -15396,8 +15390,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144815408}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -18.4988, y: 0, z: 34.6}
-  m_LocalScale: {x: 4.9060893, y: 4.9060893, z: 49.40978}
+  m_LocalPosition: {x: -14.6, y: 0, z: 31.6}
+  m_LocalScale: {x: 4.9060893, y: 4.9060893, z: 105.03121}
   m_Children: []
   m_Father: {fileID: 1651712982}
   m_RootOrder: 3
